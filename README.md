@@ -1,20 +1,27 @@
 # 559-project
 
 ## 1. Before running the simulation, please install Add-ons:
-	Robotics System Toolbox (for robot packages)
-	Optimization Toolbox (for fmincon)
-	
-## 2. To run the simulation: simply run file  ``` main.m``` 
 
-You can play with it by setting new initial and final positions (both are 7x1 vectors), and changing the trade-off parameter alpha.
+Robotics System Toolbox (for robot packages)
+
+Optimization Toolbox (for fmincon)
+	
+	
+## 2. To run the simulation: simply add everything to the working path and run file  ``` main.m``` 
+
+You can play with it by setting new initial and final configurations (both are 7x1 vectors), and changing the trade-off parameter alpha.
 
 You can run the simulation with loading other robots too, for example:
+
  	``` robot  = loadrobot("kinovaMovo"); ``` 
 	
+Do be careful with the number of joints, for example Kinova Movo has 29 joints instead, so the configuration vector has the size of 29x1.
+
+I have left comments everywhere, hopefully you can understand everything by reading them.
 	
 
 
-Followings are some data
+## 3. Followings are some data for comparison
 
 Linear (non-optimized) trajectory:
 
