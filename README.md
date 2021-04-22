@@ -13,7 +13,7 @@ You can play with it by setting new initial and final configurations (both are 7
 
 You can run the simulation with loading other robots too, for example:
 
- 	``` robot  = loadrobot("kinovaMovo"); ``` 
+ ``` robot  = loadrobot("kinovaMovo"); ``` 
 	
 Do be careful with the number of joints, for example Kinova Movo has 29 joints instead, so the configuration vector has the size of 29x1.
 
