@@ -11,13 +11,13 @@ Optimization Toolbox (for fmincon)
 
 You can play with it by setting new initial and final configurations (both are 7x1 vectors), and changing the trade-off parameter alpha.
 
-You can run the simulation with loading other robots too, for example:
+You may run the simulation with loading other robots too, for example:
 
  ``` robot  = loadrobot("kinovaMovo"); ``` 
 	
 Do be careful with the number of joints, for example Kinova Movo has 29 joints instead, so the configuration vector has the size of 29x1.
 
-I have left comments everywhere, hopefully you can understand everything by reading them.
+I have left comments everywhere, hopefully you can understand everything by reading them. Have fun!
 	
 
 
